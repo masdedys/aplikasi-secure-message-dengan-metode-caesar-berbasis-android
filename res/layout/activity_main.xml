@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/background">
+<Button
+    android:id="@+id/inbox"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/tulis"
+    android:layout_alignBottom="@+id/tulis"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="34dp"
+    android:background="@drawable/inbox" />
+
+<Button
+    android:id="@+id/info"
+    android:layout_width="65dp"
+    android:layout_height="65dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_marginBottom="102dp"
+    android:layout_marginLeft="54dp"
+    android:background="@drawable/about" />
+
+<Button
+    android:id="@+id/tulis"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/info"
+    android:layout_alignRight="@+id/info"
+    android:layout_marginBottom="51dp"
+    android:background="@drawable/write" />
+
+<Button
+    android:id="@+id/close"
+    android:layout_width="65dp"
+    android:layout_height="65dp"
+    android:layout_alignBaseline="@+id/info"
+    android:layout_alignBottom="@+id/info"
+    android:layout_alignLeft="@+id/inbox"
+    android:background="@drawable/close" />
+
+</RelativeLayout>

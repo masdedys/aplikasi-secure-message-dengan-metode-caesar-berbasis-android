@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+D:\my file\my study\skripsi\BAHAN\program\aplikasi\.metadata\.plugins\org.eclipse.jdt.core
+3546512531.index
+4229705219.index
+2008256277.index
